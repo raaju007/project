@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+h1 {
+  font-family: "Crimson Text";
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5rem;
+  font-style: normal;
+}
+h5 {
+  font-family: "work sans";
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  /* letter-spacing: 0.5rem; */
+}
+h6 {
+  font-family: "work sans";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.87rem;
+}
+.section-1 {
+  background-color: #74c69d;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  flex-wrap: wrap;
+}
+.home {
+  padding: 3.5rem 13rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  padding: 3.5rem 13rem;
+  gap: 12rem;
+}
+.right {
+  flex-basis: 60%;
+  /* position: relative;
+  bottom: 4rem; */
+}
+.left {
+  flex-basis: 40%;
+  /* position: relative;
+  bottom: 4rem; */
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.explore {
+  padding: 1rem 4rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: "work sans";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-top: 2.5rem;
+}
+.left h1,
+h5,
+h6 {
+  color: #ffffff;
+}
+.group {
+ 
+} width: 100%;
+  min-height: 100%;
+.logo {
+  width: 18.7rem;
+  height: 5rem;
+}
+.par {
+  font-family: Work Sans;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.5rem;
+  color: #74c69d;
+  text-align: center;
+}
+.lor {
+  font-family: Crimson Text;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5rem;
+  text-align: center;
+}
+.line {
+  font-family: Work Sans;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  /* letter-spacing: 0px; */
+  color: #000000;
+  text-align: center;
+}
+.partners {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10.2rem;
+}
+.part {
+  width: 34%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.line {
+  font-family: "work sans";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  gap: 6.8rem;
+  flex-wrap: wrap;
+  margin-top: 5.5rem;
+}
+.learn {
+  background: #212529;
+  color: #ffffff;
+  font-family: Work Sans;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  line-height: 2.5rem;
+}
+.learnbutton {
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: center;
+}
+.learnmore {
+  display: flex;
+  justify-content: center;
+  margin-top: 5.5rem;
+}
+.box-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 7.3rem;
+}
+.box-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 7.3rem;
+}
+.pepole-1 {
+  flex-basis: 45%;
+}
+.pepole-2 {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.pepole-3 {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+}
+.smallbox-1 {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.threepepole {
+  width: 100%;
+  min-height: 100%;
+}
+.paragraph {
+  color: #21252980;
+}
+.lore {
+  font-family: "Crimson Text";
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5rem;
+  font-style: normal;
+}
+.te {
+  font-family: "work sans";
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #74c69d;
+}
+.lin {
+  font-family: "work sans";
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #000000;
+}
+.teambox {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10.2rem;
+}
+.team {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.legge {
+  font-family: "crimson text";
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: #212529;
+}
+.grouppepole {
+  display: flex;
+  justify-content: center;
+  gap: 4.7rem;
+  margin-top: 4.5rem;
+  flex-wrap: wrap;
+}
+.img-1 {
+  box-shadow: 3px 4px 12px 1px #00000040;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 3.8rem;
+}
+.img-2 {
+  box-shadow: 3px 4px 12px 1px #00000040;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 3.8rem;
+}
+.img-3 {
+  box-shadow: 3px 4px 12px 1px #00000040;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 3.8rem;
+}
+.img-4 {
+  box-shadow: 3px 4px 12px 1px #00000040;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 3.8rem;
+}
+.footed {
+  background-color: #74c69d;
+  display: flex;
+  justify-content: center;
+  padding: 5.4rem 0;
+  margin-top: 5.4rem;
+}
+.foot {
+  flex-basis: 85%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.icons {
+  display: flex;
+  gap: 2rem;
+}
+.start {
+  font-family: "work sans";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #ffffff;
+}
+@media (max-width: 900px) {
+  .main {
+    flex-direction: column-reverse;
+    flex-basis: 100%;
+    padding: 2rem;
+    gap: 3rem;
+  }
+  .nav {
+    display: none;
+  }
+  .home {
+    padding: 1.7rem 2rem;
+  }
+  h1 {
+    font-family: "Crimson Text";
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    font-style: normal;
+  }
+  .logo {
+    width: 1.7rem 2rem;
+    height: 3.8rem;
+  }
+  .box-1 {
+    flex-direction: column;
+    flex-basis: 100%;
+    padding: 2rem;
+    gap: 3rem;
+  }
+  .box-2 {
+    flex-direction: column-reverse;
+    flex-basis: 100%;
+    padding: 2rem;
+    gap: 3rem;
+  }
+  .smallbox-1 {
+    width: 100%;
+  }
+  .lore {
+    font-family: "Crimson Text";
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-style: normal;
+  }
+  .foot {
+    gap: 2rem;
+  }
+  img-1 {
+    padding: 5rem;
+  }
+  img-2 {
+    padding: 5rem;
+  }
+  img-3 {
+    padding: 5rem;
+  }
+  img-4 {
+    padding: 5rem;
+  }
+}
